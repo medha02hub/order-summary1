@@ -1,0 +1,100 @@
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("C:\Users\namit\Desktop\vscode\pls\images\pattern-background-mobile.svg");
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+.panel{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 100px;
+}
+.order{
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+}
+.img{
+    border-radius: 20px 20px 0 0;
+}
+.p{
+    font-weight: 100;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 40px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color:hsl(224, 23%, 55%);
+    
+}
+.icon{
+    width: 50px;
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    margin: 35px;
+    margin-top: 0;
+}
+.text{
+    padding-left: 6px;
+    margin: 0;
+    
+}
+.annual{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.price{
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+.change{
+    margin-left: 50px;
+    padding: 10px 10px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+}
+.proceed{
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 5px;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cancel{
+    margin: 20px;
+    color:hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+@media(min-width:1440px){
+    body{
+        background-image: url("C:\Users\namit\Desktop\vscode\pls\images\pattern-background-desktop.png");
+    }
+}
